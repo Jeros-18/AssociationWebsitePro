@@ -1,0 +1,93 @@
+
+.content{
+    width:100%;
+}
+/*顶部开始*/
+.nav{ /*导航栏背景，防止扩大*/
+    height:49px;
+    background-color: skyblue;
+}
+.headerplus{
+    width:1246px;
+    height: 90px;
+    background-color: skyblue;
+    margin: 0 auto;/*居中显示*/
+
+}
+
+.headerplus logo{
+    height: 10px;
+    width: 100%;
+    background: url("../img/logo.jpg") no-repeat;
+    float: left;
+}
+
+.headerplus h1{
+    font-size: 22px;/*字体大小*/
+    line-height: 48px;/*垂直居中 设置行高 和容器高度一样*/
+    line-width: 100;/*不让字体太粗*/
+    font-family: "微软雅黑";
+    float: left; /*这样“软网” 和后面li都在一条水平线上*/
+}
+.headerplus ul{
+    float: right; /*悬浮到右边去*/
+}
+.headerplus ul li{
+    float:left;/*横过来*/
+    line-height: 48px;
+    font-size: 18px;
+    padding-left: 36px;/*间距*/
+}
+.headerplus ul li a{
+    color: black;
+}
+
+.headerplus ul li:hover a{/*鼠标移上去就变灰色*/
+    color: #999999;
+}
+.logo{
+    float: left;
+}
+/*顶部结束*/
+/*头部开始*/
+.header{
+    width:1246px;
+    height: 48px;
+    background-color: skyblue;
+    margin: 0 auto;/*居中显示*/
+
+}
+.header h1{
+    font-size: 22px;/*字体大小*/
+    line-height: 48px;/*垂直居中 设置行高 和容器高度一样*/
+    line-width: 100;/*不让字体太粗*/
+    font-family: "微软雅黑";
+    float: left; /*这样“软网” 和后面li都在一条水平线上*/
+}
+.header ul{
+    float: right; /*悬浮到右边去*/
+}
+.header ul li{
+    float:left;/*横过来*/
+    line-height: 48px;
+    font-size: 18px;
+    padding-left: 36px;/*间距*/
+}
+.header ul li a{
+    color: black;
+}
+.header .firstLi a{/*第一个li为灰色*/
+    color: #999999;
+}
+.header ul li:hover a{/*鼠标移上去就变灰色*/
+    color: #999999;
+}
+/*头部结束*/
+/*底部开始*/
+#bottom {
+    height: 30px;
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+/*底部结束*/
