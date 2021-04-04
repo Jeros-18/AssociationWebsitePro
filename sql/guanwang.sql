@@ -1,8 +1,8 @@
-drop database if exists book;
+drop database if exists guanwang;
 
-create database book;
+create database guanwang;
 
-use book;
+use guanwang;
 
 create table t_user(
 	`id` int primary key auto_increment,
