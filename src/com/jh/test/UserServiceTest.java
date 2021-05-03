@@ -1,11 +1,9 @@
-package com.atguigu.test;
+package com.jh.test;
 
-import com.atguigu.pojo.User;
-import com.atguigu.service.UserService;
-import com.atguigu.service.impl.UserServiceImpl;
+import com.jh.pojo.User;
+import com.jh.service.UserService;
+import com.jh.service.impl.UserServiceImpl;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class UserServiceTest {
 

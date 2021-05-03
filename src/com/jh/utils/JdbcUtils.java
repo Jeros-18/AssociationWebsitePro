@@ -1,4 +1,4 @@
-package com.atguigu.utils;
+package com.jh.utils;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;

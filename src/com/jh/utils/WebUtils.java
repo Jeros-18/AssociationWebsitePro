@@ -1,4 +1,4 @@
-package com.atguigu.utils;
+package com.jh.utils;
 
 import org.apache.commons.beanutils.BeanUtils;
 

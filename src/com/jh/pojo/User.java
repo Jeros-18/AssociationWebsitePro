@@ -1,4 +1,4 @@
-package com.atguigu.pojo;
+package com.jh.pojo;
 
 public class User {
     private Integer id;

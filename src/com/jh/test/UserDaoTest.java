@@ -1,11 +1,9 @@
-package com.atguigu.test;
+package com.jh.test;
 
-import com.atguigu.dao.UserDao;
-import com.atguigu.dao.impl.UserDaoImpl;
-import com.atguigu.pojo.User;
+import com.jh.dao.UserDao;
+import com.jh.dao.impl.UserDaoImpl;
+import com.jh.pojo.User;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class UserDaoTest {
 

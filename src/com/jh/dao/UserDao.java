@@ -1,6 +1,6 @@
-package com.atguigu.dao;
+package com.jh.dao;
 
-import com.atguigu.pojo.User;
+import com.jh.pojo.User;
 
 public interface UserDao {
 

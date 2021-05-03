@@ -7,14 +7,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e9585a-19ab-461a-85e9-4c42aa6a1d32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/header/xieHui.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/guanwang.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/JdbcUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserServletTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/utils/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/utils/WebUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/RegistServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/JdbcUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserServletTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/utils/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/utils/WebUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/RegistServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruanWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruanWang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/impl/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/JdbcUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/JdbcUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserServletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserServletTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/RegistServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/regist.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,15 +100,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1软网协会官网前后端\ruanWang\web\WEB-INF\lib" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\pages\common" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\WEB-INF" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\pages\user" />
-      <recent name="D:\1软网协会官网前后端\ruanWang\web\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +184,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617462755271</updated>
       <workItem from="1617462760566" duration="6347000" />
-      <workItem from="1617500899606" duration="345000" />
+      <workItem from="1617500899606" duration="1500000" />
+      <workItem from="1617541773492" duration="34000" />
+      <workItem from="1619353823785" duration="95000" />
+      <workItem from="1619354517053" duration="762000" />
+      <workItem from="1619394697493" duration="65000" />
+      <workItem from="1619394788296" duration="130000" />
+      <workItem from="1619438180857" duration="38000" />
+      <workItem from="1620013257044" duration="3978000" />
     </task>
     <servers />
   </component>
@@ -129,62 +199,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1619394759735">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1619394759735" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617466080457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1617466080457" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1617467761382">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1619438216555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1617467761382" />
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom" timestamp="1617501212661">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1619438216555" />
+    <state width="1024" height="241" key="GridCell.Tab.0.bottom" timestamp="1620017912636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.0.center" timestamp="1617501212660">
+    <state width="1024" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
+    <state width="1024" height="241" key="GridCell.Tab.0.center" timestamp="1620017912636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617501212660" />
-    <state width="1024" height="241" key="GridCell.Tab.0.left" timestamp="1617501212659">
+    <state width="1024" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
+    <state width="1024" height="241" key="GridCell.Tab.0.left" timestamp="1620017912636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617501212659" />
-    <state width="1024" height="241" key="GridCell.Tab.0.right" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
+    <state width="1024" height="241" key="GridCell.Tab.0.right" timestamp="1620017912636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
+    <state width="1024" height="241" key="GridCell.Tab.1.bottom" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.1.center" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.1.center" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.1.left" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.1.left" timestamp="1620017912636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.1.right" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
+    <state width="1024" height="241" key="GridCell.Tab.1.right" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.2.bottom" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.2.center" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.2.center" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.2.left" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.2.left" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
-    <state width="1024" height="241" key="GridCell.Tab.2.right" timestamp="1617501212661">
+    <state width="1024" height="241" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.2.right" timestamp="1620017912637">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1617501212661" />
+    <state width="1024" height="241" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1617466607872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

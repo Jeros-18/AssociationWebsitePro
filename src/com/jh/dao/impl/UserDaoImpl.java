@@ -1,7 +1,7 @@
-package com.atguigu.dao.impl;
+package com.jh.dao.impl;
 
-import com.atguigu.dao.UserDao;
-import com.atguigu.pojo.User;
+import com.jh.dao.UserDao;
+import com.jh.pojo.User;
 
 public class UserDaoImpl extends BaseDao implements UserDao {
     @Override

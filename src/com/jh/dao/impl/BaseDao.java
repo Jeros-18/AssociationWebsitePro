@@ -1,6 +1,6 @@
-package com.atguigu.dao.impl;
+package com.jh.dao.impl;
 
-import com.atguigu.utils.JdbcUtils;
+import com.jh.utils.JdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;

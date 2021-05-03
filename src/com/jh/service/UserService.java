@@ -1,6 +1,6 @@
-package com.atguigu.service;
+package com.jh.service;
 
-import com.atguigu.pojo.User;
+import com.jh.pojo.User;
 
 public interface UserService {
     /**

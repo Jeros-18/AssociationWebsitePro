@@ -1,9 +1,9 @@
-package com.atguigu.service.impl;
+package com.jh.service.impl;
 
-import com.atguigu.dao.UserDao;
-import com.atguigu.dao.impl.UserDaoImpl;
-import com.atguigu.pojo.User;
-import com.atguigu.service.UserService;
+import com.jh.dao.UserDao;
+import com.jh.dao.impl.UserDaoImpl;
+import com.jh.pojo.User;
+import com.jh.service.UserService;
 
 public class UserServiceImpl implements UserService {
 

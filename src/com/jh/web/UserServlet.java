@@ -1,14 +1,16 @@
-package com.atguigu.web;
+package com.jh.web;
 
-import com.atguigu.pojo.User;
-import com.atguigu.service.UserService;
-import com.atguigu.service.impl.UserServiceImpl;
-import com.atguigu.utils.WebUtils;
+import com.jh.pojo.User;
+import com.jh.service.UserService;
+import com.jh.service.impl.UserServiceImpl;
+import com.jh.utils.WebUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
+import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 
 public class UserServlet extends BaseServlet {
 
@@ -38,6 +40,8 @@ public class UserServlet extends BaseServlet {
             req.getRequestDispatcher("/pages/user/login.jsp").forward(req, resp);
         } else {
             // 登录 成功
+            //保存用户信息到session域中
+            req.getSession().setAttribute("user",loginUser);
             //跳到成功页面login_success.html
             req.getRequestDispatcher("/pages/user/login_success.jsp").forward(req, resp);
         }
@@ -53,7 +57,8 @@ public class UserServlet extends BaseServlet {
      * @throws IOException
      */
     protected void regist(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        String token = (String)req.getSession().getAttribute(KAPTCHA_SESSION_KEY);
+        req.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
         //  1、获取请求的参数
         String username = req.getParameter("username");
         String password = req.getParameter("password");
@@ -63,7 +68,7 @@ public class UserServlet extends BaseServlet {
         User user = WebUtils.copyParamToBean(req.getParameterMap(), new User());
 
 //        2、检查 验证码是否正确  === 写死,要求验证码为:abcde
-        if ("abcde".equalsIgnoreCase(code)) {
+        if (token!=null&&token.equalsIgnoreCase(code)) {
 //        3、检查 用户名是否可用
             if (userService.existsUsername(username)) {
                 System.out.println("用户名[" + username + "]已存在!");
@@ -95,5 +100,11 @@ public class UserServlet extends BaseServlet {
 
     }
 
+    /*注销*/
+    protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        req.getSession().invalidate();
+        resp.sendRedirect(req.getContextPath());
+    }
 
 }
