@@ -8,6 +8,8 @@
 
 		<meta charset="utf-8" />
 		<title>软网协会官网</title>
+		<%-- 静态包含 base标签--%>
+		<%@ include file="/pages/common/head.jsp"%>
 		<link rel="icon" href="favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="static/css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/index.css" />
@@ -17,8 +19,6 @@
 		<script src="static/script/banner.js"></script>
 		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1903309_36ckhpth40m.css">
 
-		<%-- 静态包含 base标签--%>
-		<%@ include file="/pages/common/head.jsp"%>
 
 	</head>
 	<body style="min-height: 550px; min-width: 1535px;">
@@ -34,9 +34,9 @@
 					<li><a href="pages/user/regist.jsp">注册</a> </li>
 				</c:if>
 				<c:if test="${not empty sessionScope.user}">
-					<span>欢迎<span style="color: red;font-size: 25px;margin: 10px;">${sessionScope.user.username}</span>加入软网大家庭</span>
-					<a href="userServlet?action=logout">注销</a>
-					<a href="index.jsp">返回</a>
+					<span>欢迎<span style="color: black;font-size: 25px;margin: 10px;">${sessionScope.user.username}</span>加入软网大家庭</span>
+					<a href="userServlet?action=logout">登出</a>
+
 				</c:if>
 
 			</ul>
@@ -48,12 +48,13 @@
 			<div class="header">
 				<ul>
 					<li class="firstLi"><a href="#">首页</a> </li>
-					<li><a href="#">协会概况</a> </li>
-					<li><a href="#">信息公开</a> </li>
-					<li><a href="#">软件与网络应用</a> </li>
-					<li><a href="#">关于学科竞赛</a> </li>
-					<li><a href="#">论坛</a> </li>
-					<li><a href="#">联系我们</a> </li>
+					<li><a href="pages/other/aboutXiehui.jsp">协会概况</a> </li>
+					<li><a href="pages/other/message.jsp">信息公开</a> </li>
+
+					<li><a href="pages/other/match.jsp">关于学科竞赛</a> </li>
+					<li><a href="pages/other/forum.jsp">论坛</a> </li>
+					<li><a href="pages/huiYuan/share.jsp">资源共享</a> </li>
+					<li><a href="pages/other/author.jsp">开发者</a> </li>
 				</ul>
 			</div>
 		</div>

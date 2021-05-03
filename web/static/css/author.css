@@ -1,0 +1,21 @@
+.author{
+	margin: 0 auto;
+	margin-top: 70px;
+	padding: 100px;
+	width: 400px;
+	height: 300px;
+	background-color: powderblue;	/* 背景图片 */
+	opacity: 0.5;
+}
+
+#bigBox
+{
+	margin: 0 auto;	/* login框剧中 */
+	margin-top: 700px; /* login框与顶部的距离 */
+	padding: 20px 50px;	/* login框内部的距离(内部与输入框和按钮的距离) */
+	background-color: blue;	/* login框背景颜色和透明度 */
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;	/* 圆角边 */
+	text-align: center;	/* 框内所有内容剧中 */
+}

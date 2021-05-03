@@ -103,6 +103,7 @@
 <body>
 <div id="login_header">
 	<img class="logo_img" alt="" src="static/img/logo.jpg" >
+	<h1>软件与网络应用协会</h1>
 </div>
 
 <div class="login_banner">

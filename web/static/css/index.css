@@ -5,12 +5,13 @@
 /*顶部开始*/
 .nav{ /*导航栏背景，防止扩大*/
     height:49px;
-    background-color: skyblue;
+    background-color: steelblue;
+
 }
 .headerplus{
     width:1246px;
     height: 90px;
-    background-color: skyblue;
+    background-color: steelblue;
     margin: 0 auto;/*居中显示*/
 
 }
@@ -39,11 +40,11 @@
     padding-left: 36px;/*间距*/
 }
 .headerplus ul li a{
-    color: black;
+    color: #b0b0b0;;
 }
 
 .headerplus ul li:hover a{/*鼠标移上去就变灰色*/
-    color: #999999;
+    color: #b0b0b0;;
 }
 .logo{
     float: left;
@@ -53,7 +54,7 @@
 .header{
     width:1246px;
     height: 48px;
-    background-color: skyblue;
+    background-color: steelblue;
     margin: 0 auto;/*居中显示*/
 
 }
@@ -74,13 +75,13 @@
     padding-left: 36px;/*间距*/
 }
 .header ul li a{
-    color: black;
+    color: #b0b0b0;;
 }
 .header .firstLi a{/*第一个li为灰色*/
-    color: #999999;
+    color: lavenderblush;
 }
 .header ul li:hover a{/*鼠标移上去就变灰色*/
-    color: #999999;
+    color: lavenderblush;
 }
 /*头部结束*/
 /*底部开始*/
@@ -91,3 +92,11 @@
     text-align: center;
 }
 /*底部结束*/
+.tupian{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+}

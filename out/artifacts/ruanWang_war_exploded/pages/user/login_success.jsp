@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>软网会员注册页面</title>
+	<title>软网会员登录成功页面</title>
 	<%-- 静态包含 base标签--%>
 	<%@ include file="/pages/common/head.jsp"%>
 	<link type="text/css" rel="stylesheet" href="static/css/login.css" >
@@ -32,7 +32,8 @@
 			<li><a href="#">软件与网络应用</a> </li>
 			<li><a href="#">关于学科竞赛</a> </li>
 			<li><a href="#">论坛</a> </li>
-			<li><a href="#">联系我们</a> </li>
+			<li><a href="pages/huiYuan/share.jsp">资源共享</a> </li>
+			<li><a href="#">开发者</a> </li>
 		</ul>
 	</div>
 </div>

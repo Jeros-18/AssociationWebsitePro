@@ -25,5 +25,13 @@
     </servlet-mapping>
 
 
+  <filter>
+      <filter-name>HuiYuanFilter</filter-name>
+      <filter-class>com.jh.filter.HuiYuanFilter</filter-class>
+  </filter>
+    <filter-mapping>
+        <filter-name>HuiYuanFilter</filter-name>
+        <url-pattern>/pages/huiYuan/*</url-pattern>
+    </filter-mapping>
 
 </web-app>

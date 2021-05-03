@@ -100,7 +100,7 @@ public class UserServlet extends BaseServlet {
 
     }
 
-    /*注销*/
+    /*登出*/
     protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.getSession().invalidate();

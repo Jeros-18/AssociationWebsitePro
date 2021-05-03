@@ -7,65 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e9585a-19ab-461a-85e9-4c42aa6a1d32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/header/xieHui.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jh/filter/HuiYuanFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/huiYuan/share.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_andrio.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_web.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/author.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/forum.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/match.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/other/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/author.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/rlbanner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/JdbcUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/test/UserServletTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/utils/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/utils/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/BaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/atguigu/web/UserServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login_success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/JdbcUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/test/UserServletTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/utils/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/utils/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/BaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ruanWang/com/atguigu/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruanWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruanWang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/impl/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/JdbcUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/JdbcUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserServletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/test/UserServletTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/utils/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/utils/WebUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/RegistServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/bgimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/bgimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/login_success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/img/bgimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/img/bgimg.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="CSS File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -90,7 +64,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1qfFUg4CWRjsEyv9nLQq9QjGkSx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -100,19 +76,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1软网协会官网前后端\ruanWang\web\static\css" />
+      <recent name="D:\1软网协会官网前后端\ruanWang\web\static\img" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\WEB-INF\lib" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\pages\common" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web" />
-      <recent name="D:\1软网协会官网前后端\ruanWang\web\WEB-INF" />
-      <recent name="D:\1软网协会官网前后端\ruanWang\web\pages\user" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="ruanWang:war exploded">
           <settings>
@@ -128,6 +109,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12109" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -164,7 +178,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -191,7 +205,11 @@
       <workItem from="1619394697493" duration="65000" />
       <workItem from="1619394788296" duration="130000" />
       <workItem from="1619438180857" duration="38000" />
-      <workItem from="1620013257044" duration="3978000" />
+      <workItem from="1620013257044" duration="17398000" />
+      <workItem from="1620040370004" duration="6537000" />
+      <workItem from="1620047153974" duration="210000" />
+      <workItem from="1620047454769" duration="4821000" />
+      <workItem from="1620053372204" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -199,10 +217,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620047227922">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1620047227922" />
     <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1619394759735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1619394759735" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1620027224956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1620027224956" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617466080457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -211,61 +237,69 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1619438216555" />
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom" timestamp="1620017912636">
+    <state width="1024" height="241" key="GridCell.Tab.0.bottom" timestamp="1620054729852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
-    <state width="1024" height="241" key="GridCell.Tab.0.center" timestamp="1620017912636">
+    <state width="1024" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
+    <state width="1024" height="241" key="GridCell.Tab.0.center" timestamp="1620054729852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
-    <state width="1024" height="241" key="GridCell.Tab.0.left" timestamp="1620017912636">
+    <state width="1024" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
+    <state width="1024" height="241" key="GridCell.Tab.0.left" timestamp="1620054729852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
-    <state width="1024" height="241" key="GridCell.Tab.0.right" timestamp="1620017912636">
+    <state width="1024" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
+    <state width="1024" height="241" key="GridCell.Tab.0.right" timestamp="1620054729852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
+    <state width="1024" height="241" key="GridCell.Tab.1.bottom" timestamp="1620054729635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.1.center" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
+    <state width="1024" height="241" key="GridCell.Tab.1.center" timestamp="1620054729635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.1.left" timestamp="1620017912636">
+    <state width="1024" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
+    <state width="1024" height="241" key="GridCell.Tab.1.left" timestamp="1620054729635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912636" />
-    <state width="1024" height="241" key="GridCell.Tab.1.right" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
+    <state width="1024" height="241" key="GridCell.Tab.1.right" timestamp="1620054729635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
+    <state width="1024" height="241" key="GridCell.Tab.2.bottom" timestamp="1620054729636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.2.center" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
+    <state width="1024" height="241" key="GridCell.Tab.2.center" timestamp="1620054729636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.2.left" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
+    <state width="1024" height="241" key="GridCell.Tab.2.left" timestamp="1620054729635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
-    <state width="1024" height="241" key="GridCell.Tab.2.right" timestamp="1620017912637">
+    <state width="1024" height="241" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
+    <state width="1024" height="241" key="GridCell.Tab.2.right" timestamp="1620054729636">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1620017912637" />
+    <state width="1024" height="241" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
+    <state x="270" y="74" key="SettingsEditor" timestamp="1620025386817">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1620025386817" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1617466607872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1617466607872" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1617466607863">
+    <state x="447" y="165" width="782" height="600" key="find.popup" timestamp="1620056614332">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1617466607863" />
+    <state x="447" y="165" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1620056614332" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620025320968">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1620025320968" />
   </component>
 </project>
