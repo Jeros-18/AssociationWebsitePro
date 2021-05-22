@@ -7,37 +7,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e9585a-19ab-461a-85e9-4c42aa6a1d32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jh/filter/HuiYuanFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/huiYuan/share.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_andrio.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_web.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/author.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/forum.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/match.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/other/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/author.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/rlbanner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ruanWang_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ruanWang_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/login_success_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/bgimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/bgimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jh/web/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/META-INF/ruanWang.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/dao/impl/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/filter/HuiYuanFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/test/JdbcUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/test/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/test/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/test/UserServletTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/utils/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/utils/WebUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/web/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/com/jh/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/commons-dbutils-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/druid-1.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/kaptcha-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/common/login_success_menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/header/xieHui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/huiYuan/share.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/aboutXiehui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/aboutXiehui_andrio.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/aboutXiehui_web.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/author.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/forum.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/match.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/other/message.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/login_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/pages/user/regist_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/author.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/banner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/css/rlbanner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/bgimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/code.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/img/pwd-icons-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/script/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded/static/script/jquery-1.7.2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/other/aboutXiehui.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/other/aboutXiehui_andrio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_andrio.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/other/aboutXiehui_web.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/other/aboutXiehui_web.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/other/author.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/other/author.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/other/match.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/other/match.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/login_success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/regist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/user/regist_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/img/bgimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/img/bgimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/img/logo.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +121,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruantarget" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1软网协会官网前后端\ruanWang\web\static\css" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\static\img" />
+      <recent name="D:\1软网协会官网前后端\ruanWang\web\static\css" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\WEB-INF\lib" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web\pages\common" />
       <recent name="D:\1软网协会官网前后端\ruanWang\web" />
@@ -175,11 +223,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -209,7 +252,24 @@
       <workItem from="1620040370004" duration="6537000" />
       <workItem from="1620047153974" duration="210000" />
       <workItem from="1620047454769" duration="4821000" />
-      <workItem from="1620053372204" duration="5355000" />
+      <workItem from="1620053372204" duration="5843000" />
+      <workItem from="1620095523325" duration="146000" />
+      <workItem from="1620213314662" duration="603000" />
+      <workItem from="1620221600946" duration="18000" />
+      <workItem from="1620307793430" duration="1222000" />
+      <workItem from="1620376142977" duration="4353000" />
+      <workItem from="1620525988385" duration="1622000" />
+      <workItem from="1620527928891" duration="4032000" />
+      <workItem from="1620532226531" duration="664000" />
+      <workItem from="1620742013246" duration="87000" />
+      <workItem from="1620822766557" duration="2538000" />
+      <workItem from="1621057358125" duration="157000" />
+      <workItem from="1621511735892" duration="21000" />
+      <workItem from="1621519307891" duration="642000" />
+      <workItem from="1621607836564" duration="605000" />
+      <workItem from="1621652766409" duration="2687000" />
+      <workItem from="1621660407919" duration="892000" />
+      <workItem from="1621662193642" duration="883000" />
     </task>
     <servers />
   </component>
@@ -233,73 +293,77 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1617466080457" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1619438216555">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1621653059883">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1619438216555" />
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom" timestamp="1620054729852">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621653059883" />
+    <state width="1024" height="148" key="GridCell.Tab.0.bottom" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
-    <state width="1024" height="241" key="GridCell.Tab.0.center" timestamp="1620054729852">
+    <state width="1024" height="148" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.0.center" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
-    <state width="1024" height="241" key="GridCell.Tab.0.left" timestamp="1620054729852">
+    <state width="1024" height="148" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.0.left" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
-    <state width="1024" height="241" key="GridCell.Tab.0.right" timestamp="1620054729852">
+    <state width="1024" height="148" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.0.right" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729852" />
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom" timestamp="1620054729635">
+    <state width="1024" height="148" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.1.bottom" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
-    <state width="1024" height="241" key="GridCell.Tab.1.center" timestamp="1620054729635">
+    <state width="1024" height="148" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.1.center" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
-    <state width="1024" height="241" key="GridCell.Tab.1.left" timestamp="1620054729635">
+    <state width="1024" height="148" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.1.left" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
-    <state width="1024" height="241" key="GridCell.Tab.1.right" timestamp="1620054729635">
+    <state width="1024" height="148" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.1.right" timestamp="1621608445896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom" timestamp="1620054729636">
+    <state width="1024" height="148" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1621608445896" />
+    <state width="1024" height="148" key="GridCell.Tab.2.bottom" timestamp="1621608445897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
-    <state width="1024" height="241" key="GridCell.Tab.2.center" timestamp="1620054729636">
+    <state width="1024" height="148" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621608445897" />
+    <state width="1024" height="148" key="GridCell.Tab.2.center" timestamp="1621608445897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
-    <state width="1024" height="241" key="GridCell.Tab.2.left" timestamp="1620054729635">
+    <state width="1024" height="148" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1621608445897" />
+    <state width="1024" height="148" key="GridCell.Tab.2.left" timestamp="1621608445897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1620054729635" />
-    <state width="1024" height="241" key="GridCell.Tab.2.right" timestamp="1620054729636">
+    <state width="1024" height="148" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1621608445897" />
+    <state width="1024" height="148" key="GridCell.Tab.2.right" timestamp="1621608445897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="241" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1620054729636" />
-    <state x="270" y="74" key="SettingsEditor" timestamp="1620025386817">
+    <state width="1024" height="148" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1621608445897" />
+    <state x="53" y="14" key="SettingsEditor" timestamp="1621653060920">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1620025386817" />
+    <state x="53" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1621653060920" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1617466607872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1617466607872" />
-    <state x="447" y="165" width="782" height="600" key="find.popup" timestamp="1620056614332">
+    <state x="447" y="165" width="782" height="600" key="find.popup" timestamp="1620528143675">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="447" y="165" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1620056614332" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620025320968">
+    <state x="447" y="165" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1620528143675" />
+    <state x="178" y="5" key="new project wizard" timestamp="1620095667857">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1620025320968" />
+    <state x="178" y="5" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1620095667857" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620528125475">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1620528125475" />
   </component>
 </project>

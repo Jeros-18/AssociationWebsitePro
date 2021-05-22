@@ -57,7 +57,7 @@
             <li><a href="pages/other/match.jsp">关于学科竞赛</a> </li>
             <li><a href="pages/other/forum.jsp">论坛</a> </li>
             <li><a href="pages/huiYuan/share.jsp">资源共享</a> </li>
-            <li><a href="pages/other/author.jsp#">开发者</a> </li>
+            <li><a href="pages/other/author.jsp">开发者</a> </li>
         </ul>
     </div>
 </div>
@@ -72,7 +72,7 @@
             <li><a href="pages/other/aboutXiehui_web.jsp"  class="active">web应用开发</a></li>
 
             <li><a href="pages/other/aboutXiehui_andrio.jsp">移动应用开发</a></li>
-            <li><a href="#">脚本开发</a></li>
+            <li><a href="pages/other/aboutXiehui_andrio.jsp">脚本开发</a></li>
         </ul>
     </div>
     <div class="col l10">

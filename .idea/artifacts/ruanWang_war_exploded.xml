@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ruanWang:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ruanWang_war_exploded</output-path>
-    <root id="root">
+  <artifact type="war" name="ruanWang:war exploded">
+    <output-path>$PROJECT_DIR$/../ruantarget</output-path>
+    <root id="archive" name="ruanWang_war exploded.war">
       <element id="javaee-facet-resources" facet="ruanWang/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

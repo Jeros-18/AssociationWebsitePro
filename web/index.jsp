@@ -63,7 +63,7 @@
 		<div class="content">
 			<div class="banner">
 				<ul class="ul_list">
-					<li><img src="static/img/1.jpg" alt=""></li>
+					<li><img src="static/img/3.jpg" alt=""></li>
 					<li><img src="static/img/2.jpg" alt=""></li>
 					<li><img src="static/img/3.jpg" alt=""></li>
 					<li><img src="static/img/4.jpg" alt=""></li>

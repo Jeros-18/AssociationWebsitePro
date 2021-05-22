@@ -8,23 +8,41 @@
 	<%-- 静态包含 base标签--%>
 	<%@ include file="/pages/common/head.jsp"%>
 	<link type="text/css" rel="stylesheet" href="static/css/login.css" >
+	<link type="text/css" rel="stylesheet" href="static/css/rlbanner.css" >
+
+	<style>
+
+	.login_formp{
+		height:310px;
+		width:406px;
+		float: right;
+		margin-right:380px;
+		margin-top: 220px;
+		background-color: white;
+		opacity: 0.9;
+	}
+
+
+
+	.login_boxp{
+		margin: 20px;
+		height: 260px;
+		width: 366px;
+	}
+</style>
 
 </head>
-<body>
-<div id="login_header">
-	<img class="logo_img" alt="" src="static/img/logo.jpg" >
-	<h1>软件与网络应用协会</h1>
-</div>
+<body style="min-height: 550px; min-width: 1535px;">
+<img src="static/img/bgimg.jpg" class="tupian">
 
-<div class="login_banner">
 
-	<div id="l_content">
-		<span class="login_word">欢迎登录</span>
-	</div>
+<div>
+
+
 
 	<div id="content">
-		<div class="login_form">
-			<div class="login_box">
+		<div class="login_formp">
+			<div class="login_boxp">
 				<div class="tit">
 					<h1>软网会员</h1>
 					<a href="pages/user/regist.jsp">立即注册</a>
@@ -57,7 +75,6 @@
 		</div>
 	</div>
 </div>
-<%--静态包含页脚内容--%>
-<%@include file="/pages/common/footer.jsp"%>
+
 </body>
 </html>

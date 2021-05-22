@@ -72,7 +72,7 @@
             <li><a href="pages/other/aboutXiehui_web.jsp">web应用开发</a></li>
 
             <li><a href="pages/other/aboutXiehui_andrio.jsp">移动应用开发</a></li>
-            <li><a href="">脚本开发</a></li>
+            <li><a href="pages/other/aboutXiehui_andrio.jsp">脚本开发</a></li>
         </ul>
     </div>
     <div class="col l10">
